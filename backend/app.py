@@ -7,7 +7,7 @@ from typing import Dict, Any
 import numpy as np
 import logging
 
-from utils import load_artifacts, prepare_vector, get_threshold, top_shap_reasons
+from .utils import load_artifacts, prepare_vector, get_threshold, top_shap_reasons
 
 # Configure logging
 logging.basicConfig(
